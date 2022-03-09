@@ -23,7 +23,7 @@ jobs:
       - name: Upload Artifacts 🔺
         uses: actions/upload-artifact@v1
         with:
-          name: ./docs
+          name: site
           path: ./example/dist
 
   deploy:
