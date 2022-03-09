@@ -24,4 +24,4 @@ jobs:
 
       - name: Run build
         working-directory: ./example
-        run: sudo trex run build
+        run: snel build
