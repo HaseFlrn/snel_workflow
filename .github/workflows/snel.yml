@@ -23,4 +23,4 @@ jobs:
         run: deno run --allow-run --allow-read https://deno.land/x/snel/install.ts
 
       - name: Run build
-        run: trex run build
+        run: cd example/ && trex run build
