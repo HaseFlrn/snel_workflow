@@ -29,4 +29,4 @@ jobs:
       - name: copy-files
         run: |
           cp ./example/public/global.css ./docs
-          cp ./example/public/index.css ./docs
+          cp ./example/public/index.html ./docs
