@@ -24,7 +24,7 @@ jobs:
 
       - name: Run build
         working-directory: ./example
-        run: sudo trex run build
+        run: snel build
 
   copy:
     needs: [build]
@@ -32,7 +32,7 @@ jobs:
     steps:
       - name: Setup repo
         uses: actions/checkout@v2
-      
+
       - copy-files:
         runs: |
           cp ./example/public/global.css ./docs
