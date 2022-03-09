@@ -33,7 +33,7 @@ jobs:
       - name: Setup repo
         uses: actions/checkout@v2
 
-      - copy-files:
-        runs: |
+      - name: copy-files
+        run: |
           cp ./example/public/global.css ./docs
           cp ./example/public/index.css ./docs
