@@ -26,7 +26,7 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: site
-          path: ./example/dist # <- modify to your path if necessary
+          path: ./example/dist # <- modify to your path
 
   deploy:
     needs: [build]
