@@ -19,4 +19,4 @@ If your root-directory is the snel generated folder, you can delete this line.
 
 - branch: {branch you want to deploy on}
 
-<img src="./static/code.png" alt="Screenshot of workflow yml file" style="width:400px;"/>
+<img src="./static/code.png" alt="Screenshot of workflow yml file" style="width:500px;"/>
